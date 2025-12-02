@@ -11,16 +11,14 @@ jobs:
       - name: Build App
         # This builds a 'payload' which is what an IPA actually is
         run: |
-  # 1. Change YourSchemeName to Test
-  xcodebuild -scheme Test -sdk iphoneos -configuration Release clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
-  
-  mkdir Payload
-  
-  # 2. Change YourAppName.app to Test.app (This must match your Product Name)
-  mv build/Release-iphoneos/Test.app Payload/
-  
-  # 3. Change YourAppName.ipa to Test.ipa (This is the output file name)
-  zip -r Test.ipa Payload
+            xcodebuild -scheme Test -sdk 
+            iphoneos -configuration Release clean build 
+            CODE_SIGN_IDENTITY="" 
+            CODE_SIGNING_REQUIRED=NO 
+            CODE_SIGNING_ALLOWED=NO
+            mkdir Payload
+            mv build/Release-iphoneos/Test.app Payload/
+            zip -r Test.ipa Payload
 
 
       - name: Upload IPA
