@@ -20,4 +20,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-binary
-          path: YourAppName.ipa
+          path: Test.ipa
