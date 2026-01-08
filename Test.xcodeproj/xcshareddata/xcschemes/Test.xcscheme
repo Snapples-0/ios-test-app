@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28087E1D2E79A3BE00501C5D"
+               BlueprintIdentifier = "28087E142E79A3BD00501C5D"
                BuildableName = "Test.app"
                BlueprintName = "Test"
                ReferencedContainer = "container:Test.xcodeproj">
@@ -33,7 +33,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28087E2D2E79A3BF00501C5D"
+               BlueprintIdentifier = "28087E212E79A3BF00501C5D"
                BuildableName = "TestTests.xctest"
                BlueprintName = "TestTests"
                ReferencedContainer = "container:Test.xcodeproj">
@@ -43,7 +43,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28087E372E79A3BF00501C5D"
+               BlueprintIdentifier = "28087E2B2E79A3BF00501C5D"
                BuildableName = "TestUITests.xctest"
                BlueprintName = "TestUITests"
                ReferencedContainer = "container:Test.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28087E1D2E79A3BE00501C5D"
+            BlueprintIdentifier = "28087E142E79A3BD00501C5D"
             BuildableName = "Test.app"
             BlueprintName = "Test"
             ReferencedContainer = "container:Test.xcodeproj">
@@ -82,7 +82,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28087E1D2E79A3BE00501C5D"
+            BlueprintIdentifier = "28087E142E79A3BD00501C5D"
             BuildableName = "Test.app"
             BlueprintName = "Test"
             ReferencedContainer = "container:Test.xcodeproj">
